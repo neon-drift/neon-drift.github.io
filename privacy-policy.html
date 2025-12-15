@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Neon Drift</title>
+    <style>
+        :root {
+            --bg-dark: #050505;
+            --neon-blue: #00f3ff;
+            --neon-pink: #ff00cc;
+            --neon-yellow: #ffee00;
+            --glass-bg: rgba(20, 20, 20, 0.6);
+            --border-glow: 0 0 10px var(--neon-blue), 0 0 20px var(--neon-blue);
+            --text-glow: 0 0 10px rgba(255, 255, 255, 0.8);
+            --logo-bg: #0b1141;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            max-height: 9999999px;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--bg-dark) 0%, var(--logo-bg) 100%);
+            color: #e0e0e0;
+            line-height: 1.7;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 2px solid rgba(0, 243, 255, 0.3);
+            box-shadow: var(--border-glow), inset 0 0 30px rgba(0, 243, 255, 0.1);
+            padding: 40px;
+            animation: fadeIn 0.8s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid rgba(0, 243, 255, 0.2);
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgba(0, 243, 255, 0.5), 0 0 50px rgba(255, 0, 204, 0.3);
+            animation: pulse 3s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                box-shadow: 0 0 30px rgba(0, 243, 255, 0.5), 0 0 50px rgba(255, 0, 204, 0.3);
+            }
+            50% {
+                box-shadow: 0 0 40px rgba(0, 243, 255, 0.7), 0 0 60px rgba(255, 0, 204, 0.5);
+            }
+        }
+
+        h1 {
+            color: var(--neon-blue);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: var(--text-glow);
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            color: var(--border-glow);
+            font-size: 1.1em;
+            text-shadow: 0 0 8px rgba(255, 0, 204, 0.6);
+        }
+
+        h2 {
+            color: var(--neon-yellow);
+            font-size: 1.8em;
+            margin: 30px 0 15px;
+            text-shadow: 0 0 8px rgba(255, 238, 0, 0.6);
+            border-left: 4px solid var(--neon-yellow);
+            padding-left: 15px;
+        }
+
+        h3 {
+            color: var(--neon-blue);
+            font-size: 1.3em;
+            margin: 25px 0 12px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+            color: #d0d0d0;
+        }
+
+        ul {
+            margin: 15px 0 15px 30px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: var(--neon-pink);
+        }
+
+        .highlight-box {
+            background: rgba(0, 243, 255, 0.1);
+            border-left: 4px solid var(--neon-blue);
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid rgba(0, 243, 255, 0.2);
+            text-align: center;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        .date {
+            color: var(--neon-yellow);
+            font-weight: 600;
+        }
+
+        a {
+            color: var(--neon-blue);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: var(--neon-pink);
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="header">
+        <img src="android-chrome-512x512.png" alt="Neon Drift Logo" class="logo">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">Neon Drift</p>
+    </div>
+
+    <p><strong>Effective Date:</strong> <span class="date">December 15, 2025</span></p>
+    <p><strong>Developer:</strong> Sourabh Suneja</p>
+
+    <div class="highlight-box">
+        <p><strong>Summary:</strong> Neon Drift respects your privacy. The game does not collect personal data, does not require any device permissions, and only uses anonymous analytics to improve gameplay experience.</p>
+    </div>
+
+    <h2>1. About the Game</h2>
+    <p><strong>Neon Drift</strong> is an arcade-style space game where the player guides a glowing neon particle through the cosmos, aiming to reach the highest possible distance while avoiding dangerous hexagonal obstacles and collecting power-ups along the way.</p>
+
+    <h2>2. Information Collection and Use</h2>
+
+    <h3>2.1 Personal Information</h3>
+    <p>Neon Drift does not collect, store, or process any personally identifiable information (PII). No account creation, login, or personal details are required to play the game.</p>
+
+    <h3>2.2 Device Permissions</h3>
+    <p>The game does not request access to any sensitive device features, including:</p>
+    <ul>
+        <li>Camera</li>
+        <li>Microphone</li>
+        <li>Location</li>
+        <li>Contacts</li>
+        <li>Media files or storage</li>
+        <li>Phone state or identifiers</li>
+    </ul>
+
+    <h3>2.3 Analytics Data</h3>
+    <p>Neon Drift uses Google Analytics to collect anonymous usage data such as:</p>
+    <ul>
+        <li>Device type and OS version</li>
+        <li>Session duration and gameplay interactions</li>
+        <li>Approximate country or region</li>
+        <li>Anonymous identifiers generated by Google</li>
+    </ul>
+    <p>This data cannot be used to identify individual users.</p>
+
+    <h2>3. Use of Collected Data</h2>
+    <ul>
+        <li>Improve game balance and difficulty</li>
+        <li>Fix bugs and performance issues</li>
+        <li>Enhance visual and gameplay experience</li>
+        <li>Plan future updates</li>
+    </ul>
+
+    <h2>4. Data Sharing</h2>
+    <p>No personal data is shared with third parties. Analytics data is handled solely by Google Analytics under Google’s privacy policy.</p>
+
+    <h2>5. Data Security</h2>
+    <p>Since Neon Drift does not store personal data, there is no risk of personal data leakage. All analytics data is securely processed by Google.</p>
+
+    <h2>6. Children’s Privacy</h2>
+    <p>Neon Drift is suitable for all age groups and does not knowingly collect data from children.</p>
+
+    <h2>7. Third-Party Services</h2>
+    <p>Google Analytics is the only third-party service used:</p>
+    <p><a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+    <h2>8. Policy Updates</h2>
+    <p>This Privacy Policy may be updated when required. Any changes will be reflected with a revised effective date.</p>
+
+    <h2>9. Contact</h2>
+    <p><strong>Email:</strong> sourabhsuneja021@gmail.com</p>
+
+    <h2>10. Consent</h2>
+    <p>By installing and playing Neon Drift, you agree to this Privacy Policy.</p>
+
+    <div class="footer">
+        <p>&copy; 2025 Neon Drift by Sourabh. All rights reserved.</p>
+        <p>Neon Drift – A Privacy-First Arcade Experience</p>
+    </div>
+</div>
+</body>
+</html>
