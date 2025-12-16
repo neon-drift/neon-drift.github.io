@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.neon_drift.twa",
+      "sha256_cert_fingerprints":
+        ["74:E2:95:FD:FD:95:66:4E:0E:14:3E:2C:FB:9A:80:24:2A:E9:BF:50:C5:19:28:65:4B:1D:E5:40:5B:83:12:64"]
+    }
+  }
+]
